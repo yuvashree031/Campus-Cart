@@ -20,28 +20,28 @@ We built the frontend using HTML and CSS to provide a clean, responsive user int
 ## Screenshots
 
 ### Initial Page
-![Initial Page](initial.jpg)
+![Initial Page](screenshots/initial.jpg)
 
 ### Main Page
-![Main Page](main.jpg)
+![Main Page](screenshots/main.jpg)
 
 ### Home Page
-![Home Page](HomePage.jpg)
+![Home Page](screenshots/HomePage.jpg)
 
 ### Login Page
-![Login Page](login.jpg)
+![Login Page](screenshots/login.jpg)
 
 ### Menu Page
-![Menu Page](menu.jpg)
+![Menu Page](screenshots/menu.jpg)
 
 ### Restaurants
-![Restaurants](Restaurents.jpg)
+![Restaurants](screenshots/Restaurents.jpg)
 
 ### Payment Page
-![Payment Page](Payment.jpg)
+![Payment Page](screenshots/Payment.jpg)
 
 ### Bill Payment
-![Bill Payment](BillPayment.jpg)
+![Bill Payment](screenshots/BillPayment.jpg)
 
 
 
@@ -61,6 +61,7 @@ We built the frontend using HTML and CSS to provide a clean, responsive user int
 1. Clone the repository:
    ```bash
    git clone git@github.com:yuvashree031/Campus-Cart.git
+
 
 
 
