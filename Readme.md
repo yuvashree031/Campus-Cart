@@ -17,6 +17,34 @@ The frontend is built with HTML and CSS for a clean, responsive interface, while
 
 ---
 
+## Screenshots
+
+### Initial Page
+![Initial Page](initial.jpg)
+
+### Main Page
+![Main Page](main.jpg)
+
+### Home Page
+![Home Page](HomePage.jpg)
+
+### Login Page
+![Login Page](login.jpg)
+
+### Menu Page
+![Menu Page](menu.jpg)
+
+### Restaurants
+![Restaurants](Restuarents.jpg)
+
+### Payment Page
+![Payment Page](Payment.jpg)
+
+### Bill Payment
+![Bill Payment](BillPayment.jpg)
+
+
+
 ## Tech Stack
 
 | Component | Technology |
@@ -33,3 +61,4 @@ The frontend is built with HTML and CSS for a clean, responsive interface, while
 1. Clone the repository:
    ```bash
    git clone git@github.com:yuvashree031/Campus-Cart.git
+
