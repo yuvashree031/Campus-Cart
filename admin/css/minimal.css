@@ -1,0 +1,97 @@
+/* Minimal Admin Theme Overrides
+   Scope: admin/* pages that already load Bootstrap + style.css
+   Goal: cleaner spacing, modern typography, softer colors, consistent cards/tables/buttons.
+*/
+
+:root {
+  --bg: #0e0f12;
+  --surface: #14161a;
+  --surface-2: #1a1d22;
+  --text: #e5e7eb;
+  --muted: #9aa4b2;
+  --primary: #6366f1; /* indigo */
+  --primary-600: #5457ee;
+  --primary-700: #4548ea;
+  --success: #10b981;
+  --danger: #ef4444;
+  --warning: #f59e0b;
+  --border: #22252b;
+  --card-shadow: 0 6px 24px rgba(0,0,0,.35);
+  --radius: 12px;
+}
+
+html, body {
+  background: var(--bg) !important;
+  color: var(--text);
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Header */
+.header .navbar {
+  background: var(--surface) !important;
+  border-bottom: 1px solid var(--border);
+}
+.navbar .nav-link, .navbar .navbar-brand { color: var(--text) !important; }
+.navbar .dropdown-menu { background: var(--surface-2); border: 1px solid var(--border); }
+.navbar .dropdown-item { color: var(--text); }
+.navbar .dropdown-item:hover { background: #252932; }
+
+/* Sidebar */
+.left-sidebar { background: var(--surface) !important; box-shadow: inset -1px 0 0 var(--border); }
+.sidebar-nav ul li a { color: var(--muted); border-radius: 8px; }
+.sidebar-nav ul li a:hover, .sidebar-nav ul li a.active { color: var(--text); background: #1b1f27; }
+.sidebar-nav ul li i { color: var(--muted); }
+.nav-label { color: var(--muted); opacity: .9; letter-spacing: .08em; }
+
+/* Page wrapper */
+.page-wrapper { background: transparent; }
+.container-fluid { padding-top: 18px; }
+
+/* Cards */
+.card { background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--card-shadow); }
+.card .card-header { background: linear-gradient(135deg, var(--surface) 0%, #191c22 100%); border-bottom: 1px solid var(--border); border-top-left-radius: var(--radius); border-top-right-radius: var(--radius); }
+.card .card-header h4, .card-title { color: var(--text); margin: 0; }
+.card.p-30 { padding: 22px !important; }
+
+/* Stats media blocks */
+.media .fa, .media .f-s-40 { color: var(--primary); }
+.media-body h2 { color: var(--text); font-weight: 700; }
+.media-body p { color: var(--muted); }
+
+/* Forms */
+.form-control { background: #0f1116; border: 1px solid var(--border); color: var(--text); border-radius: 10px; }
+.form-control:focus { border-color: var(--primary); box-shadow: 0 0 0 3px rgba(99,102,241,.15); background: #10131a; color: var(--text); }
+label.control-label { color: var(--muted); font-weight: 600; }
+
+/* Buttons */
+.btn { border-radius: 10px; border: 1px solid transparent; font-weight: 600; letter-spacing: .3px; }
+.btn-primary { background: var(--primary); border-color: var(--primary-700); }
+.btn-primary:hover { background: var(--primary-600); border-color: var(--primary-700); }
+.btn-inverse, .btn-secondary { background: #232730; border-color: #2b303b; color: var(--text); }
+.btn-inverse:hover, .btn-secondary:hover { background: #2a2f3a; }
+.btn-danger { background: var(--danger); border-color: #dc2626; }
+.btn-info { background: #06b6d4; border-color: #0891b2; }
+
+/* Tables */
+.table { color: var(--text); }
+.table thead.thead-dark th { background: #1a1d22; border-color: var(--border); color: var(--muted); text-transform: uppercase; font-size: 12px; letter-spacing: .08em; }
+.table td, .table th { border-color: var(--border); }
+.table-striped tbody tr:nth-of-type(odd) { background-color: rgba(255,255,255,.02); }
+.table-hover tbody tr:hover { background: rgba(99,102,241,.08); }
+
+/* Alerts */
+.alert { border-radius: 12px; border: 1px solid var(--border); background: #12151b; color: var(--text); }
+.alert-danger { background: rgba(239,68,68,.12); border-color: rgba(239,68,68,.35); }
+.alert-success { background: rgba(16,185,129,.12); border-color: rgba(16,185,129,.35); }
+
+/* Footer */
+.footer { background: var(--surface); border-top: 1px solid var(--border); color: var(--muted); }
+
+/* Utilities */
+.text-muted { color: var(--muted) !important; }
+.profile-pic { filter: brightness(.9); }
+
+/* Preloader subtle */
+.preloader .path { stroke: var(--primary); }
