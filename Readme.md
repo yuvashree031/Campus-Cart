@@ -35,7 +35,7 @@ The frontend is built with HTML and CSS for a clean, responsive interface, while
 ![Menu Page](menu.jpg)
 
 ### Restaurants
-![Restaurants](Restuarents.jpg)
+![Restaurants](Restaurents.jpg)
 
 ### Payment Page
 ![Payment Page](Payment.jpg)
@@ -61,4 +61,5 @@ The frontend is built with HTML and CSS for a clean, responsive interface, while
 1. Clone the repository:
    ```bash
    git clone git@github.com:yuvashree031/Campus-Cart.git
+
 
