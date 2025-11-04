@@ -1,8 +1,8 @@
 # Campus-Cart
 
-A web application designed to streamline food ordering for students by enabling online menu browsing, ordering, and payment. This system helps reduce cafeteria queues and waiting times, improving overall efficiency.
+A web application developed to streamline food ordering for students by enabling online menu browsing, order placement, and secure payments. The system reduces long queues and waiting times, improving overall efficiency in campus cafeterias.
 
-The frontend is built with HTML and CSS for a clean, responsive interface, while the backend uses PHP for server-side logic and MySQL for database integration. Students can securely place and manage orders in real time, and administrators can track and update food availability seamlessly.
+We built the frontend using HTML and CSS to provide a clean, responsive user interface, while the backend is developed in PHP with MySQL database integration for real-time order processing and data management. Students/Faculties can place and manage orders instantly, and administrators can track, update, and manage menu availability through an integrated admin dashboard.
 
 ---
 
@@ -61,5 +61,6 @@ The frontend is built with HTML and CSS for a clean, responsive interface, while
 1. Clone the repository:
    ```bash
    git clone git@github.com:yuvashree031/Campus-Cart.git
+
 
 
