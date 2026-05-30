@@ -1,7 +1,7 @@
 (function(){
   function ready(fn){ if(document.readyState!=='loading'){ fn(); } else { document.addEventListener('DOMContentLoaded', fn); } }
   ready(function(){
-    // Animate payment card selection
+    
     document.querySelectorAll('[data-pay-card]').forEach(function(card){
       card.addEventListener('click', function(){
         document.querySelectorAll('[data-pay-card]').forEach(function(c){ c.classList.remove('selected'); });
@@ -11,7 +11,7 @@
       });
     });
 
-    // Prevent double-submit + show spinner
+    
     var form = document.getElementById('checkoutForm');
     var button = document.getElementById('placeOrderBtn');
     var spinner = document.getElementById('orderSpinner');
