@@ -1,5 +1,5 @@
 <?php
-//12
+
 //main connection file for both admin & front end
 $servername = "localhost"; //server
 $username = "root"; //username
